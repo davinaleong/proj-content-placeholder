@@ -35,7 +35,6 @@ function getData() {
   profileNameEl.innerHTML = `John Doe`
   profileDataEl.innerHTML = `<small>11 Aug 2022</small>`
 
-  console.log(animatedBgs)
   animatedBgs.forEach((animatedBg) =>
     animatedBg.removeAttribute(`data-animated-bg`)
   )
