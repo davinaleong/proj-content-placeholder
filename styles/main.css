@@ -137,6 +137,34 @@ small {
   font-size: var(--fs-300);
 }
 
+[data-animated-bg] {
+  background-image: linear-gradient(
+    to right,
+    var(--clr-grey-100) 0%,
+    var(--clr-grey-200) 10%,
+    var(--clr-grey-100) 20%,
+    var(--clr-grey-100) 100%
+  );
+  background-size: 200% 300%;
+  animation: bg-pos 1s linear infinite;
+}
+
+@keyframes bg-pos {
+  0% {
+    background-position: 50% 0;
+  }
+
+  100% {
+    background-position: -150% 0;
+  }
+}
+
+[data-animated-text] {
+  border-radius: 100vmax;
+  margin-bottom: var(--size-200);
+  height: var(--size-400);
+}
+
 /** Content - End **/
 
 /** Utility **/
