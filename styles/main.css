@@ -16,9 +16,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 :root {
-  --clr-primary-400: hsl(212, 87%, 55%);
-
-  --clr-accent-400: hsl(32, 87%, 55%);
+  --clr-grey-100: hsl(210, 12%, 97%);
+  --clr-grey-200: hsl(192, 15%, 94%);
 
   --clr-neutral-100: hsl(0, 0%, 100%);
   --clr-neutral-200: hsl(0, 0%, 90%);
@@ -104,12 +103,12 @@ body {
 }
 
 /** Utility - Colours **/
-.text-primary-400 {
-  color: var(--clr-primary-400);
+.text-grey-100 {
+  color: var(--clr-grey-100);
 }
 
-.text-accent-400 {
-  color: var(--clr-accent-400);
+.text-grey-200 {
+  color: var(--clr-grey-200);
 }
 
 .text-neutral-100 {
@@ -157,12 +156,12 @@ body {
 }
 
 /** Utility - Background Colours **/
-.bg-primary-400 {
-  background-color: var(--clr-primary-400);
+.bg-grey-100 {
+  background-color: var(--clr-grey-100);
 }
 
-.bg-accent-400 {
-  background-color: var(--clr-accent-400);
+.bg-grey-200 {
+  background-color: var(--clr-grey-200);
 }
 
 .bg-neutral-100 {
