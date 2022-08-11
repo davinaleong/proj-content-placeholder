@@ -97,6 +97,10 @@ body {
   box-shadow: 0 0.3em 0.5em 0 rgba(0, 0, 0, 0.2);
 }
 
+.card-header {
+  min-height: 12.5em;
+}
+
 .card-body {
   color: var(--clr-neutral-800);
   background-color: var(--clr-neutral-100);
@@ -109,8 +113,10 @@ body {
 }
 
 .profile {
+  --image-size: 3.8em;
+
   display: grid;
-  grid-template-columns: 3.8em auto;
+  grid-template-columns: var(--image-size) auto;
   gap: 0 var(--size-300);
   margin-top: var(--size-400);
   align-items: center;
@@ -119,6 +125,11 @@ body {
 .profile-image {
   border-radius: 50%;
   grid-row: 1 / span 2;
+  overflow: hidden;
+  min-height: var(--image-size);
+}
+
+.profile-image img {
   object-fit: cover;
   aspect-ratio: 1 / 1;
 }
@@ -160,8 +171,9 @@ small {
 }
 
 [data-animated-text] {
+  display: inline-block;
   border-radius: 100vmax;
-  margin-bottom: var(--size-200);
+  width: 100%;
   height: var(--size-400);
 }
 
