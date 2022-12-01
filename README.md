@@ -2,7 +2,7 @@
 
 Following a tutorial by Traversy Media [here](https://www.youtube.com/watch?v=JkeyKeK3V24).
 
-Demo link coming soon!
+Demo page is found [here](https://davinaleong.github.io/proj-content-placeholder/)!
 
 ## Getting Started
 
